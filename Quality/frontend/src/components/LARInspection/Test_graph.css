@@ -1,0 +1,13 @@
+/* ตัวอย่างการใส่ขอบสีดำในกราฟแท่ง */
+.apexcharts-bar-area {
+    stroke: #000000; /* สีขอบกราฟแท่ง */
+    stroke-width: 1; /* ความหนาขอบกราฟแท่ง */
+  }
+  
+  .apexcharts-pie-slice {
+    stroke: #000000; /* สีของขอบของ Pie Slice */
+    stroke-width: 1; /* ความหนาของขอบของ Pie Slice */
+  }
+  
+  
+  

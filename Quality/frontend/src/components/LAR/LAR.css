@@ -1,0 +1,15 @@
+/* styles.css or your main CSS file */
+.bg-custom {
+    background-color: #f0f4f8; /* Light gray-blue background */
+  }
+  
+  /* Optionally, add more styles for the card or container */
+  .card-primary {
+    background-color: #ffffff; /* White background for card */
+  }
+  
+  .card-header {
+    background-color: #007bff; /* Primary blue background for the header */
+    color: #ffffff; /* White text color */
+  }
+  

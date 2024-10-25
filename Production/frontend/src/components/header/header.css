@@ -1,0 +1,35 @@
+/* Set the header background color to white */
+.menu-main-menu-container {
+    padding: 10px; /* Add some padding to the header if needed */
+}
+
+/* Style the main menu to display items horizontally */
+.main-menu {
+    display: flex; /* Display items horizontally */
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+/* Style individual menu items */
+.main-menu li {
+    margin-right: 20px; /* Space between menu items */
+}
+
+/* Style the links within the menu items */
+.main-menu li a {
+    text-decoration: none; /* Remove underline from links */
+    color: rgb(38, 119, 241); /* Set link text color to blue */
+}
+
+/* Add a gray separator after each menu item */
+.menu-item::after {
+    content: '|'; /* Separator between items */
+    margin: 0 10px; /* Space around the separator */
+    color: gray; /* Set separator color to gray */
+}
+
+/* Remove the separator after the last menu item */
+.menu-item:last-child::after {
+    content: ''; /* No separator after the last item */
+}

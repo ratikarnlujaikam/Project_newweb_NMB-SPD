@@ -1,0 +1,18 @@
+.custom-popup-class {
+    top: 0;
+    left: 0;
+    transform: translate(0, 0);
+  }
+
+.button-style {
+  padding: 10px;
+  margin: 5px;
+  width: 100%; /* Set the width of the button to 100% */
+}
+
+/* Define the media query for specific screen sizes */
+@media (max-width: 768px) {
+  .button-style {
+    width: 150px; /* Set the width of the button to a fixed value for screens smaller than 768px */
+  }
+}

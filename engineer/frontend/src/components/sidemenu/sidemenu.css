@@ -1,0 +1,26 @@
+
+.menu__link {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    padding: 10px 20px;
+    display: block;
+}
+
+.menu__link--sublist {
+    padding-left: 20px; /* เพิ่มการเยื้องเมื่อเป็น Sublist */
+}
+
+.menu__link--sublist-caret::after {
+    content: ' ▸'; /* เพิ่มเครื่องหมายแสดงการขยายเมื่อเป็น Sublist */
+}
+
+.menu__link--active {
+    background-color: #007bff; /* ตั้งสีพื้นหลังเมื่อลิงค์เป็น Active */
+    color: white;
+}
+
+.menu__link:hover {
+    background-color: #f0f0f0; /* เปลี่ยนสีพื้นหลังเมื่อเมาส์ไปวัตถุ */
+    color: #333;
+}
