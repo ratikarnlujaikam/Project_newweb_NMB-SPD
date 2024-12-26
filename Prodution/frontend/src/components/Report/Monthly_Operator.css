@@ -1,0 +1,38 @@
+.table-container {
+    position: relative;
+    overflow-x: auto;
+  }
+  
+  .header-table {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+  }
+  
+  .fixed-column {
+    /* Add your styling for the fixed columns here */
+    position: sticky;
+    left: 0;
+    background-color: white; /* You might need to adjust this based on your design */
+    z-index: 2; /* Make sure it's higher than the header table z-index */
+  }
+  
+  /* Target all fixed columns */
+  .fixed-column {
+    background-color: lightgray; /* Set a different background color for all fixed columns */
+  }
+  
+  
+  .item_Name.fixed-column,
+  .Area.fixed-column,
+  .Line_No.fixed-column,
+  .MODEL.fixed-column,
+  .ItemNo.fixed-column ,
+  .Line_No.fixed-column,
+  .shift.fixed-column
+  {
+    /* Add styling specific to the first five fixed columns here */
+    background-color: lightgray; /* For example, set a different background color */
+  }
+  

@@ -37,25 +37,21 @@ export const NETWORK_TIMEOUT_MESSAGE =
 export const UPLOAD_PHOTO_FAIL_MESSAGE =
   "An error has occurred. The photo was unable to upload.";
 
-
-
-
 export const apiUrl = "http://localhost:2010/"; //localhost port 2010
 export const apiUrlhome = "http://localhost:5173/"; //localhost port 2010
 export const Url = "http://localhost:3000/"; //Port frontend
-export const apiUrl_python = "http://192.168.101.120:2028/"; //deploy บางปะอิน 
+export const apiUrl_python = "http://192.168.101.120:2028/"; //deploy บางปะอิน
 
-// SPD 
-// export const apiUrl = "http://192.168.101.120:2026/"; //deploy บางปะอิน 
+// SPD
+// export const apiUrl = "http://192.168.101.120:2026/"; //deploy บางปะอิน
 // export const apiUrlhome = "http://192.168.101.120:2031/"; //localhost port 2010
-// export const Url = "http://192.168.101.120:2027/"; //deploy บางปะอิน 
-// export const apiUrl_python = "http://192.168.101.120:2028/"; //deploy บางปะอิน 
+// export const Url = "http://192.168.101.120:2027/"; //deploy บางปะอิน
+// export const apiUrl_python = "http://192.168.101.120:2028/"; //deploy บางปะอิน
 
-//nmb 
-// export const apiUrl = "http://10.120.122.28:2016/"; //deploy บางปะอิน 
-// export const Url = "http://10.120.122.28:2017/"; //deploy บางปะอิน 
-// export const apiUrl_python = "http://10.120.122.28:2012/"; //deploy บางปะอิน 
-
+//nmb
+// export const apiUrl = "http://10.120.122.28:2016/"; //deploy บางปะอิน
+// export const Url = "http://10.120.122.28:2017/"; //deploy บางปะอิน
+// export const apiUrl_python = "http://10.120.122.28:2012/"; //deploy บางปะอิน
 
 // export const apiUrl = "http://192.168.101.120:2033/"; //Backend of javascript
 // export const apiUrlhome = "http://192.168.101.120:2031/"; //localhost port 2010
@@ -64,96 +60,97 @@ export const apiUrl_python = "http://192.168.101.120:2028/"; //deploy บาง�
 
 export const server = {
   //QAInspection
-    MODELQA_URL: `api/QAInspection/model`,
-    INSTYPE_URL: `api/QAInspection/insType`,
-    REPORT_URL: `api/QAInspection/report`,
-    REPORT2_URL: `api/QAInspection/report2`,
+  MODELQA_URL: `api/QAInspection/model`,
+  INSTYPE_URL: `api/QAInspection/insType`,
+  REPORT_URL: `api/QAInspection/report`,
+  REPORT2_URL: `api/QAInspection/report2`,
 
-    //Rejection
-    REJECTMODEL_URL: `api/Rejection/model`,
-    REJECTTYPE_URL: `api/Rejection/insType`,
-    REJECTBYMODEL_URL: `api/Rejection/RejectByModel`,
-    REJECTBYQA_URL: `api/Rejection/RejectByQANO`,
+  //Rejection
+  REJECTMODEL_URL: `api/Rejection/model`,
+  REJECTTYPE_URL: `api/Rejection/insType`,
+  REJECTBYMODEL_URL: `api/Rejection/RejectByModel`,
+  REJECTBYQA_URL: `api/Rejection/RejectByQANO`,
 
-    //mouthlyQA
-    MODELMONTHLYQA_URL: `api/monthlyQA/model`,
-    INSTYPEQA_URL: `api/monthlyQA/insType`,
-    MONTHLYQA_URL: `api/monthlyQA/monthlyQA`,
-    
-    //Trace_back_function_test
-    QPMBYLOTQA_URL : `api/QPM/lotQA`,
-    QPMBYBARCODEMOTOR_URL : `api/QPM/barcodemotor`,
+  //mouthlyQA
+  MODELMONTHLYQA_URL: `api/monthlyQA/model`,
+  INSTYPEQA_URL: `api/monthlyQA/insType`,
+  MONTHLYQA_URL: `api/monthlyQA/monthlyQA`,
 
-    LINE_TRACE_DYNAMIC_URL: `api/Trace_Dynamic/LINE`,
-    GETLINE_TRACE_DYNAMIC_URL: `api/Trace_Dynamic/getline_model`,
-    Trace_Dynamic_process_URL: `api/Trace_Dynamic/process`,
-    Trace_Dynamic_model_URL: `api/Trace_Dynamic/model`,
-    Trace_Dynamic_URL: `api/Trace_Dynamic/Master`,
-    Trace_Dynamic_moter_URL: `api/Trace_Dynamic/moter`,
+  //Trace_back_function_test
+  QPMBYLOTQA_URL: `api/QPM/lotQA`,
+  QPMBYBARCODEMOTOR_URL: `api/QPM/barcodemotor`,
 
-    //Daily_LAR_by_Model
-    DEFECTYEAR_URL: `api/Daily_LAR_by_Model/year`,
-    DEFECTMONTH_URL: `api/Daily_LAR_by_Model/Month`,
-    DEFECTMODEL_URL: `api/Daily_LAR_by_Model/model`,
-    DEFECTMTYPE_URL: `api/Daily_LAR_by_Model/insType`,
-    DFFECTMLINE_URL: `api/Daily_LAR_by_Model/line`,
-    DEFECTNG_URL: `api/Daily_LAR_by_Model/DefectNG`,
-    DEFECPRODUCT_TYPE_URL: `api/Daily_LAR_by_Model/product_type`,
-    
-    //Monthly_LAR_report_all_Model
-    LARYEAR_URL: `api/Monthly_LAR_report_all_Model/year`,
-    LARMONTH_URL: `api/Monthly_LAR_report_all_Model/Month`,
-    LAR_URL: `api/Monthly_LAR_report_all_Model/LARPP`,
-    
-    //Monthly LAR report by Model
-    LARMODEL_URL: `api/Monthly_LAR_report_by_Model/model`,
-    LARTYPE_URL: `api/Monthly_LAR_report_by_Model/insType`,
-    LARYEAR_Month_URL: `api/Monthly_LAR_report_by_Model/year`,
-    LARMONTHLY_URL: `api/Monthly_LAR_report_by_Model/LARMonth`,
-    
-    // Trace back shipment
-    DODATABYLOTQA_URL : `api/QPM/dobylotqa`,
-    DODATABYINVOID_URL : `api/QPM/dobyinvoid`,
+  LINE_TRACE_DYNAMIC_URL: `api/Trace_Dynamic/LINE`,
+  GETLINE_TRACE_DYNAMIC_URL: `api/Trace_Dynamic/getline_model`,
+  Trace_Dynamic_process_URL: `api/Trace_Dynamic/process`,
+  Trace_Dynamic_model_URL: `api/Trace_Dynamic/model`,
+  Trace_Dynamic_URL: `api/Trace_Dynamic/Master`,
+  Trace_Dynamic_moter_URL: `api/Trace_Dynamic/moter`,
 
-    // Product hold control
-    ModelHoldQA_URL: `api/Product_hold_control/model`,
-    LINEQAHOLD_URL: `api/Product_hold_control/Line`,
-    StatusQAHOLD_URL: `api/Product_hold_control/Status`,
-    Access_byHOLD_URL: `api/Product_hold_control/Access_by`,
-    QAHOLD_URL: `api/Product_hold_control/report2`,
-    HOLDNUMBER_URL: `api/Product_hold_control/report3`,
-    REPORTHOLD_URL: `api/Product_hold_control/report`,
-    CHECKBOXALL_URL: `api/Product_hold_control/HOLDALL`,
-    HOLDFORPC_URL: `api/Product_hold_control/HoldForpc`,
-    // QA lots status
-    MOVEMENTQA_URL: `api/QA_lots_status/QaNumberAll`, 
-    RESULT_URL: `api/QA_lots_status/result`, 
-    ITEMNOSMOVEMENT_URL: `api/QA_lots_status/ItemNos`, 
+  //Daily_LAR_by_Model
+  DEFECTYEAR_URL: `api/Daily_LAR_by_Model/year`,
+  DEFECTMONTH_URL: `api/Daily_LAR_by_Model/Month`,
+  DEFECTMODEL_URL: `api/Daily_LAR_by_Model/model`,
+  DEFECTMTYPE_URL: `api/Daily_LAR_by_Model/insType`,
+  DFFECTMLINE_URL: `api/Daily_LAR_by_Model/line`,
+  DEFECTNG_URL: `api/Daily_LAR_by_Model/DefectNG`,
+  DEFECPRODUCT_TYPE_URL: `api/Daily_LAR_by_Model/product_type`,
 
-    // %NG Dashboard Monitoring
-    percen_ng_URL: `api/percen_ng/LARPP`,
+  //Monthly_LAR_report_all_Model
+  LARYEAR_URL: `api/Monthly_LAR_report_all_Model/year`,
+  LARMONTH_URL: `api/Monthly_LAR_report_all_Model/Month`,
+  LAR_URL: `api/Monthly_LAR_report_all_Model/LARPP`,
 
-    //LAR_by_team
-    GRAPH_LAR_BYTEAM_URL: `api/graph_LAR_byteam/output`, 
-    GET_SUPPORT_URL: `api/graph_LAR_byteam/Support`, 
-    GRAPH_DAILY_LAR_BY_TEAM_URL: `api/graph_LAR_byteam/output_daily`, 
+  //Monthly LAR report by Model
+  LARMODEL_URL: `api/Monthly_LAR_report_by_Model/model`,
+  LARTYPE_URL: `api/Monthly_LAR_report_by_Model/insType`,
+  LARYEAR_Month_URL: `api/Monthly_LAR_report_by_Model/year`,
+  LARMONTHLY_URL: `api/Monthly_LAR_report_by_Model/LARMonth`,
 
-    //Daily LAR Monitoring
-    LARYEAR_UPDATE_URL: `api/LAR_BY_MODEL_UPDATE/year`,
-    LARMONTH_UPDATE_URL: `api/LAR_BY_MODEL_UPDATE/Month`,
-    LAR_UPDATE_URL: `api/LAR_BY_MODEL_UPDATE/LAR_UPDATE`,
+  // Trace back shipment
+  DODATABYLOTQA_URL: `api/QPM/dobylotqa`,
+  DODATABYINVOID_URL: `api/QPM/dobyinvoid`,
 
-    //graph_trendmaster//
-PROCESS_TRENDMASTER_URL: `api/trend_master/Process`,
-PARAMETER_TRENDMASTER_URL: `api/trend_master/Parameter`,
-MODEL_TRENDMASTER_URL: `api/trend_master/model`,
-LINE_TRENDMASTER_URL: `api/trend_master/Line`,
-SERIAL_TRENDMASTER_URL: `api/trend_master/Serial`,
-MACHINE_TRENDMASTER_URL: `api/trend_master/machine`,
-FIXTURE_TRENDMASTER_URL: `api/trend_master/fixture`,
-VALUE_Y_TRENDMASTER_URL: `api/trend_master/graph_trend_master`,
+  // Product hold control
+  ModelHoldQA_URL: `api/Product_hold_control/model`,
+  LINEQAHOLD_URL: `api/Product_hold_control/Line`,
+  StatusQAHOLD_URL: `api/Product_hold_control/Status`,
+  Access_byHOLD_URL: `api/Product_hold_control/Access_by`,
+  QAHOLD_URL: `api/Product_hold_control/report2`,
+  HOLDNUMBER_URL: `api/Product_hold_control/report3`,
+  REPORTHOLD_URL: `api/Product_hold_control/report`,
+  CHECKBOXALL_URL: `api/Product_hold_control/HOLDALL`,
+  HOLDFORPC_URL: `api/Product_hold_control/HoldForpc`,
+  // QA lots status
+  MOVEMENTQA_URL: `api/QA_lots_status/QaNumberAll`,
+  RESULT_URL: `api/QA_lots_status/result`,
+  ITEMNOSMOVEMENT_URL: `api/QA_lots_status/ItemNos`,
 
+  // %NG Dashboard Monitoring
+  percen_ng_URL: `api/percen_ng/LARPP`,
 
+  //LAR_by_team
+  GRAPH_LAR_BYTEAM_URL: `api/graph_LAR_byteam/output`,
+  GET_SUPPORT_URL: `api/graph_LAR_byteam/Support`,
+  GRAPH_DAILY_LAR_BY_TEAM_URL: `api/graph_LAR_byteam/output_daily`,
+
+  //Daily LAR Monitoring
+  LARYEAR_UPDATE_URL: `api/LAR_BY_MODEL_UPDATE/year`,
+  LARMONTH_UPDATE_URL: `api/LAR_BY_MODEL_UPDATE/Month`,
+  LAR_UPDATE_URL: `api/LAR_BY_MODEL_UPDATE/LAR_UPDATE`,
+
+  //graph_trendmaster//
+  PROCESS_TRENDMASTER_URL: `api/trend_master/Process`,
+  PARAMETER_TRENDMASTER_URL: `api/trend_master/Parameter`,
+  MODEL_TRENDMASTER_URL: `api/trend_master/model`,
+  LINE_TRENDMASTER_URL: `api/trend_master/Line`,
+  SERIAL_TRENDMASTER_URL: `api/trend_master/Serial`,
+  MACHINE_TRENDMASTER_URL: `api/trend_master/machine`,
+  FIXTURE_TRENDMASTER_URL: `api/trend_master/fixture`,
+  VALUE_Y_TRENDMASTER_URL: `api/trend_master/graph_trend_master`,
+
+  //LAR_by_team
+  LAR_BY_TEAM_URL:`api/LAR_by_team/LAR_BY_TEAM_RESULT`,
 };
 export const key = {
   LOGIN_PASSED: `LOGIN_PASSED`,

@@ -10,6 +10,7 @@ import ReactDOM from "react-dom";
 import ReactApexChart from "react-apexcharts";
 import ApexCharts from "apexcharts";
 import { colors } from "@material-ui/core";
+import { Button, Typography } from '@material-ui/core';
 
 class Daily_LAR_by_Model_G extends Component {
   constructor(props) {
@@ -362,33 +363,14 @@ console.log("updatedSeriesData",updatedSeriesData);
     }));
     this.setState({ listMonth: options });
   };
-  // getModel = async () => {
-  //   const array = await httpClient.get(server.DEFECTMODEL_URL);
-  //   const options = array.data.result.map((d) => ({
-  //     label: d.Model_Name,
-  //   }));
-  //   this.setState({ listModel: options });
-  // };
-  // getInsType = async () => {
-  //   const modelLabel =
-  //   this.state.Model.label === "**ALL**"
-  //     ? "**ALL**"
-  //     : this.state.Model.label;
-  //   const array = await httpClient.get(
-  //     server.DEFECTMTYPE_URL + "/" + modelLabel
-  //   );
-  //   const options = array.data.result.map((d) => ({
-  //     label: d.InspectionType,
-  //   }));
-  //   this.setState({ listInsType: options });
-  // };
+
 
   renderreport1 = () => {
-    if (this.state.report != null && this.state.report.length > 0) {
+    if (this.state.report && this.state.report.length > 0) {
       const columnHeader = Object.keys(this.state.report[0]);
-
+  
       return (
-        <tbody>
+        <>
           <tr>
             {columnHeader.map((column, index) => (
               <th key={index} align="center">
@@ -403,10 +385,13 @@ console.log("updatedSeriesData",updatedSeriesData);
               ))}
             </tr>
           ))}
-        </tbody>
+        </>
       );
     }
+  
+    return null; // Return null if there's no data
   };
+  
 
   render() {
     console.log(this.state.Model);
@@ -434,7 +419,7 @@ console.log("updatedSeriesData",updatedSeriesData);
           </section>
         </div>
 
-        <div class="container-fluid">
+        <div className="container-fluid">
           <div className="row">
             <div className="col-12">
               <div className="card card-primary card-outline">
@@ -554,8 +539,8 @@ console.log("updatedSeriesData",updatedSeriesData);
                   </div>
                 </div>
               </div>
-              <div class="content">
-                <div class="container-fluid">
+              <div className="content">
+                <div className="container-fluid">
                   <div className="row">
                     <div className="col-12">
                       <div className="card card-primary card-outline">
@@ -597,8 +582,8 @@ console.log("updatedSeriesData",updatedSeriesData);
                 </div>
               </div>
               {/* Table*/}
-              <div class="content">
-                <div class="container-fluid">
+              <div className="content">
+                <div className="container-fluid">
                   <div className="card card-primary">
                     <div className="row">
                       <div className="col-12">

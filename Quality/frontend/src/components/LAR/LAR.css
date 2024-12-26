@@ -8,8 +8,18 @@
     background-color: #ffffff; /* White background for card */
   }
   
-  .card-header {
-    background-color: #007bff; /* Primary blue background for the header */
-    color: #ffffff; /* White text color */
-  }
-  
+
+  .chart-container {
+    border: 2px solid #007bff; /* กำหนดสีของกรอบ */
+    border-radius: 8px; /* ขอบมน */
+    padding: 10px; /* ระยะห่างภายใน */
+    width: 100%; /* กำหนดความกว้างเต็ม */
+    height: 800px; /* กำหนดความสูง */
+    margin: 20px 0; /* จัดกลาง และเพิ่มระยะห่างบนล่าง */
+    overflow: hidden; /* ซ่อนสิ่งที่เกินออกมา */
+    display: flex; /* ใช้ flexbox เพื่อกระจายเนื้อหา */
+    justify-content: center; /* จัดกลางในแกนหลัก */
+    align-items: center; /* จัดกลางในแกนข้าม */
+    background-color: #f8f9fa; /* สีพื้นหลัง - เปลี่ยนได้ตามต้องการ */
+}
+

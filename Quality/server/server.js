@@ -42,6 +42,7 @@ app.use("/api/percen_ng", require("./api/api_percen_ng"));
 app.use("/api/graph_LAR_byteam", require("./api/api_graph_LAR_byteam"));
 app.use("/api/LAR_BY_MODEL_UPDATE", require("./api/api_LAR_BY_MODEL_G"));
 app.use("/api/trend_master",require("./api/api_trendmaster_values"));
+app.use("/api/LAR_by_team",require("./api/api_LAR_by_team"));
 
 // Error handling
 app.use((err, req, res, next) => {

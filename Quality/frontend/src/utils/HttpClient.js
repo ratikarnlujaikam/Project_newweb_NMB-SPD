@@ -12,7 +12,7 @@ axios.interceptors.request.use(async (config) => {
   if (!isAbsoluteURLRegex.test(config.url)) {
     config.url = join(apiUrl, config.url);
   }
-  config.timeout = 30000; // 10 Second
+  config.timeout = 60000; // 10 Second
   return config;
 });
 

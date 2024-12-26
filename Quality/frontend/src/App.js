@@ -25,6 +25,7 @@ import Percen_ng from "./components/procen_ng/procen_ng";
 import LAR_BY_TEAM_PRODUCTION from "./components/LARInspection/LAR_team_prodution";
 import Daily_LAR_by_Model_G from "./components/LARInspection/Daily_LAR_by_Model_G";
 import Graph_trendmaster from "./components/LARInspection/graph_trendmaster";
+import LAR_by_team from "./components/LAR/LAR_by_team";
 export default class App extends Component {
   render() {
     return (
@@ -53,6 +54,7 @@ export default class App extends Component {
          <Route path="/NG_Monitoring_By_Team"element={<LAR_BY_TEAM_PRODUCTION/>}></Route>
          <Route path="/Daily_UPDATE"element={<Daily_LAR_by_Model_G/>}></Route>
          <Route path="/graph_trend_master"element={<Graph_trendmaster/>}></Route>
+         <Route path="/LAR_by_team"element={<LAR_by_team/>}></Route>
         <Route path="/" element={<Navigate replace to="/Home"/>}></Route>
 
       </Routes>

@@ -1,0 +1,47 @@
+//create projects
+npx create-react-app //name:projects
+
+//install node
+npm install 
+
+//install libraries
+npm install react-router-dom
+npm install axios
+npm install url-join
+npm install create-react-component-folder
+npm install sweetalert2
+npm install react-apexcharts apexcharts
+
+
+//
+react-router-dom:
+ใช้สำหรับการจัดการการนำทางภายในแอปพลิเคชัน React ทำให้สามารถสร้างเส้นทางระหว่างหน้าเพจต่าง ๆ ได้ง่าย ๆ และสามารถนำทางผู้ใช้ไปยังหน้าเพจต่าง ๆ ได้ตามที่กำหนด
+
+axios:
+เป็นไลบรารีสำหรับการส่งคำขอ HTTP จากฝั่งลูกค้า (เช่น GET, POST, PUT, DELETE) ไปยังเซิร์ฟเวอร์ เพื่อดึงข้อมูลหรือส่งข้อมูล
+
+url-join:
+ใช้สำหรับการเชื่อมต่อส่วนของ URL เข้าด้วยกันอย่างถูกต้อง เช่น เชื่อม URL หลักกับพาธย่อย โดยจะช่วยจัดการเรื่องการเชื่อมต่อ slash (/) อย่างถูกต้อง
+
+create-react-component-folder:
+ใช้สำหรับสร้างโฟลเดอร์คอมโพเนนต์ในโปรเจกต์ React ช่วยให้การสร้างโครงสร้างไฟล์ของคอมโพเนนต์เป็นไปได้อย่างง่ายดายและรวดเร็ว
+
+sweetalert2:
+ใช้สำหรับแสดงกล่องข้อความที่มีการออกแบบที่สวยงาม และสามารถใช้งานได้ง่าย ๆ ในการแจ้งเตือนผู้ใช้หรือขอการยืนยันจากผู้ใช้ เช่น แสดงข้อความเตือนหรือแสดงกล่องยืนยันก่อนที่จะดำเนินการบางอย่าง
+
+react-apexcharts และ apexcharts:
+ใช้ในการสร้างกราฟและแผนภูมิในแอปพลิเคชัน React ด้วย ApexCharts ซึ่งเป็นไลบรารีสำหรับการสร้างกราฟที่ทรงพลังและมีรูปแบบที่หลากหลาย
+
+//App.js
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+  Redirect,
+Navigate,
+} from "react-router-dom";
+
+header.js   //install
+npm install @material-ui/core
+npm install @mui/material @emotion/react @emotion/styled
+npm install react@latest react-dom@latest

@@ -638,7 +638,7 @@ class Monthly_LAR_report_all_Model extends Component {
                       <a href="/Home">Home</a>
                     </li>
                     <li className="breadcrumb-item active">
-                      {/* Monthly LAR report all Model */}
+                    
                     </li>
                   </ol>
                 </div>

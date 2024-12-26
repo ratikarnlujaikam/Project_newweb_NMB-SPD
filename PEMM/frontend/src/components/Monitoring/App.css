@@ -1,0 +1,16 @@
+.button-container {
+    display: flex;         /* Arrange buttons in a row */
+    flex-wrap: wrap;       /* Allow wrapping to the next line if needed */
+    gap: 30px;             /* Spacing between buttons */
+    justify-content: center; /* Center buttons horizontally */
+    padding: 20px;         /* Add padding around the container */
+  }
+  
+  .big-button {
+    font-size: 1.5rem;      /* Larger font size */
+    padding: 15px;          /* Padding inside the button */
+    height: 5cm;           /* Set the height to 50 cm */
+    width: 150px;           /* Set a fixed width for buttons */
+    border-radius: 8px;     /* Optional: rounded corners */
+    text-align: center;     /* Center text inside the button */
+  }
